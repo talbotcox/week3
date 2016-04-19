@@ -12,8 +12,8 @@ console.log(y[a])}
 negativeIndex(['a', 'b', 'c', 'd', 'e'],-2)
 
 function removeM (x){console.log(x.replace("m",""))}
-removeM("Family")
-
+removeM("Family")           
+        
 function printObject(x){for(var i in x){ console.log(i+" is "+x[i])}}
 printObject({ a: 10, b: 20, c: 30 })
 
