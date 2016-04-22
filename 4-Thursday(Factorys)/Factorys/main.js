@@ -1,12 +1,6 @@
 angular.module('WillyWonka', [])
-
-angular.module('WillyWonka')
     .controller('snozBerries', ['wonkaFactory', snozBerries])
-    
-angular.module('WillyWonka')
     .controller('candyControl', ['wonkaFactory', '$timeout', candyControl])
-
-angular.module('WillyWonka')
     .factory('wonkaFactory', [wonkaFactory])
 
 function snozBerries(wonkaFactory){
